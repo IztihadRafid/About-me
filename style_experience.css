@@ -1,0 +1,29 @@
+.experience_body{
+    background-image: url(images/fire.gif);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color: #290103;
+    margin: 4%;
+}
+.github:hover{
+    color: rgb(199, 50, 80);
+}
+.ex_list{
+    color: rgb(167, 41, 66);
+}
+.ex_list  :hover{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

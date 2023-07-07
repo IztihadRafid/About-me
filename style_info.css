@@ -1,0 +1,86 @@
+#home_body{
+    margin: 2%;
+    background-color:#290103 ;
+    
+}
+#home_div{
+    color: red ;
+    text-align: right;
+}
+.home_image{
+    float: right;
+    color: #111; 
+    background: greenyellow; 
+    box-shadow: 0 0 100px #290103 ;
+}
+.home_image:hover{
+    color: #111; 
+    background: greenyellow; 
+    box-shadow: 0 0 100px #520307 
+}
+.home_image:hover{
+    transform: scale(0);
+   -ms-transform: scale(1.0); 
+   -webkit-transform: scale(1.05);
+     box-shadow: 2px 2px 2px #d31616;
+     
+   }
+
+.home_list{
+    text-align: right;
+    display: inline-flex;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .profile_picture
+  {
+    
+    margin-top: 5%;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 30%;
+     
+   ;
+  }
+  .about_body {
+    background-color: #290103;
+    margin: 2%;
+  }
+  .about_info{
+    color:crimson;
+    font-size: 30px;
+    text-align: center;
+  }
+  .nsu_link{
+    color: crimson;
+  }
+  .nsu_link:hover{
+ color: #e666a6;
+ 
+  }
+  .back_to_home{
+    text-decoration: wavy;
+    text-align: center;
+   color: aqua;
+  }
